@@ -1,5 +1,5 @@
 # Threadpool-using-double-queue
-There's one version for threadpool , which is mainly used to reduce mutual exclusion in linux platform.
+There's one version for threadpool in linux platform, which is a kind of task allocation.
 Explain:
 This thread pool is like a factory.And the factory usually consists of the following roles: supervisor, assistant, employee and customer.
 Customers provide tasks, assistant receives and presents tasks, supervisor assigns task, and employees perform tasks.
